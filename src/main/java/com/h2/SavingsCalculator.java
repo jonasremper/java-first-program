@@ -35,7 +35,7 @@ public class SavingsCalculator {
     }
 
     public float calculate() {
-        return 0f;
+        return 0;
     }
 }
 
