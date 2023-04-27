@@ -37,5 +37,9 @@ public class SavingsCalculator {
     public float calculate() {
         return sumOfCredits() - sumOfDebits();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
 
