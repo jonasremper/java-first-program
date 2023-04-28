@@ -17,6 +17,6 @@ public class MortgageCalculator {
     }
 
     private float getMonthlyInterestRate() {
-        return 0.0f;
+        float interestRate = annualRate / 100;
     }
 }
