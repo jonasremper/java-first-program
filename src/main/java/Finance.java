@@ -43,4 +43,8 @@ public class Finance {
                 return;
         }
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
