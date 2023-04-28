@@ -22,4 +22,8 @@ public class Finance {
         }
         return false;
     }
+
+    private static void executeCommand(String command, String[] arguments) {
+        
+    }
 }
