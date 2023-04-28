@@ -1,3 +1,7 @@
+import com.h2.BestLoanRates;
+import com.h2.MortgageCalculator;
+import com.h2.SavingsCalculator;
+
 import java.util.Map;
 
 public class Finance {
@@ -24,6 +28,19 @@ public class Finance {
     }
 
     private static void executeCommand(String command, String[] arguments) {
-        
+        switch (command) {
+            case BEST_LOAN_RATES:
+                System.out.println("Finding best loan rates ...");
+                BestLoanRates(arguments);
+                return;
+            case SAVINGS_CALCULATOR:
+                System.out.println("Finding your net savings ...");
+                SavingsCalculator(arguments);
+                return;
+            case MORTGAGE_CALCULATOR:
+                System.out.println("Finding your monthly payment ...");
+                MortgageCalculator(arguments);
+                return;
+        }
     }
 }
